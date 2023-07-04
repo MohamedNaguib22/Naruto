@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.lineNav {
+    @apply font-normal text-xl w-full relative mb-8 before:content-[''] before:absolute before:w-[90%] before:h-[1px] before:bg-gray-200 before:-bottom-3;
+}
+.menuLink {
+    @apply mb-3 transition-all w-[150px] duration-500  py-1 hover:pl-2 rounded-md hover:bg-blue-200 hover:text-white
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
